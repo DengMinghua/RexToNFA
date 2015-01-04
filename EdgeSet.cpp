@@ -10,6 +10,7 @@ char EdgeSet::if_transable(int i_next_point) {
     for (auto x : Edges)
         if (x.first = i_next_point) return x.second;
     return -2;
+    //See if the start node can transfer to the next point and return the transer.
 }
 void EdgeSet::show_me(bool Epsilon_or_not) {
     std::cout << "Point " << start_point << std::endl;
